@@ -48,7 +48,7 @@ if ($month ==12){
 <section class="col1">
     <header>
         <a href="./calender.php?year=<?=$prevYear?>&month=<?=$prevMonth?>"><span class="material-icons">arrow_back_ios</span></a>
-        <h2><?=$year."&nbsp;".$month?></h2>
+        <h2><a href="./calender.php"><?=$year."&nbsp;&nbsp;".$month?></a></h2>
         <a href="./calender.php?year=<?=$nextYear?>&month=<?=$nextMonth?>"><span class="material-icons">arrow_forward_ios</span></a>
     </header>
     <table>
